@@ -13,7 +13,5 @@ document.querySelector("form").addEventListener("submit", function(e) {
   localStorage.setItem("profile", JSON.stringify(profile));
 
   alert("Profile saved successfully 🎉");
-
-  // Later redirect to dashboard
-  // window.location.href = "dashboard.html";
+  window.location.href = "dashboard.html";
 });
