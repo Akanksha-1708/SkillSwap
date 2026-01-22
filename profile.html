@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Set Up Profile</title>
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+  <div class="profile-card">
+    <h1>Set Up Your Profile</h1>
+    <form>
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" placeholder="Your name" required />
+      </div>
+
+      <div class="input-group">
+        <label>Short bio</label>
+        <textarea placeholder="Tell us a little about yourself..."></textarea>
+      </div>
+
+      <div class="input-group">
+        <label>Skills you want to teach *</label>
+        <select>
+          <option>Select skill</option>
+          <option>Guitar</option>
+          <option>Web Development</option>
+          <option>Graphic Design</option>
+          <option>Python</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label>Skills you want to learn *</label>
+        <select>
+          <option>Select skill</option>
+          <option>C++</option>
+          <option>Stock Trading</option>
+          <option>Public Speaking</option>
+          <option>UI/UX Design</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label>Languages you speak *</label>
+        <select>
+          <option>Select language</option>
+          <option>English</option>
+          <option>Hindi</option>
+          <option>Spanish</option>
+        </select>
+      </div>
+
+      <div class="photo-box">
+        <img src="https://i.pravatar.cc/150?img=47" alt="profile">
+        <span>Using Google photo – click to change</span>
+      </div>
+
+      <button class="btn">Continue</button>
+    </form>
+  </div>
+  <script src="profile.js"></script>
+</body>
+</html>
